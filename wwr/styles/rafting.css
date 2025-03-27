@@ -1,0 +1,28 @@
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div {
+    position: relative;
+}
+
+article {
+    position: relative;
+    img {
+        position: float right;
+    }
+}
+
+h1 {
+    position: relative;
+    img {
+        position: float right;
+    }
+}
+
+h2 {
+    position: relative;
+}
+
