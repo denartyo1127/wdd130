@@ -10,5 +10,31 @@ div {
 
 article {
     position: relative;
+    margin: 0 auto;
 }
-    
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
