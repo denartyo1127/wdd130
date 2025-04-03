@@ -43,7 +43,7 @@ main > div h1 {
     justify-content: space-around;
 }
 
-.adventure {
+.adventure figure {
     display: flex;
     text-align: center;
     justify-content: space-around;
