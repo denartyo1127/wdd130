@@ -62,7 +62,6 @@ main > div h1 {
     justify-content: right;
 }
 .copy {
-    float: middle;
     display: flex;
     justify-content: center;
 }
