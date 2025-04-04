@@ -1,33 +1,54 @@
 header {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-}  
-
-nav {
-    grid-column: 5;
-    grid-row: 1;
-}
-
-h1 {
-    grid-area: 5/3;
-}
-
-p {
-    grid-area: 5;
-}
-
-img {
-    grid-area: 2/2
-}
-
-header {
-    background-color: #B70000;
+    grid-template-columns: auto 1fr auto; 
+    align-items: center; 
     padding: 20px;
+    background-color: #B70000;
     border-radius: 10px;
     width: 100%;
-    height: 5cm;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mainnav {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+
+.mainnav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header .mainnav {
+    justify-self: end;
+}
+
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .mainnav {
+        justify-content: center;
+    }
+}
+
 
 main > div h1 {
     display: flex;
@@ -42,7 +63,8 @@ main > div h1 {
 
 .first {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .adventure {
