@@ -3,7 +3,7 @@ header {
     grid-template-columns: auto 1fr auto; 
     align-items: center; 
     padding: 20px;
-    background-color: #B70000;
+    background-color: #ad0017;
     border-radius: 10px;
     width: 100%;
     max-width: 100%;
@@ -20,17 +20,19 @@ header h1 {
     margin: 0;
     text-align: center;
     overflow: hidden;
+    color:#faf7f7;
 }
 
 .mainnav {
     display: flex;
     justify-content: flex-start; 
     gap: 20px; 
+    
 }
 
 .mainnav a {
     text-decoration: none;
-    color: white;
+    color:#faf7f7;
     font-size: 18px;
 }
 
@@ -49,6 +51,11 @@ header .mainnav {
     }
 }
 
+header p {
+    margin: 0;
+    font-size: 20px;
+    color:#faf7f7;
+}
 
 main > div h1 {
     display: flex;
