@@ -1,5 +1,128 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 20px;
+    background-color: #ad0017;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    color:#faf7f7;
+}
+
+.mainnav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.mainnav a {
+    text-decoration: none;
+    color:#faf7f7;
+    font-size: 18px;
+}
+
+header .mainnav {
+    justify-self: end;
+}
+
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .mainnav {
+        justify-content: center;
+    }
+}
+
+header p {
+    margin: 0;
+    font-size: 20px;
+    color:#faf7f7;
+}
+
+main {
+    display : grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.aboutme {
+    display: grid;
+    grid-area: 2/1;
+}
+
+.employee-images {
+    display: grid;
+    grid-area: 1/5;
+
+}
+
+.titleadventure {
+    display: grid;
+    grid-area: 1/2;
+}
+
+.employee p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.map {
+    display: grid;
+    grid-area: 3/4
+}
+
+footer {
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.sociallinks {
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -107,3 +230,26 @@ main > div h1 {
     display: flex;
     justify-content: center;
 }
+
+.employees {
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.employee-gallery figure {
+    text-align: center;
+}
+
+.employee-gallery img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+} */
+
