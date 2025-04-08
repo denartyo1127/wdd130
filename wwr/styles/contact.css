@@ -97,6 +97,7 @@ main {
 }
 
 footer {
+    background-color: #ad0017;
     padding: 5px;
     border-radius: 10px;
     width: 100%;
@@ -116,9 +117,14 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 14px;
-    color: #000000;
+    color: #faf7f7;
 }
 
+.footer-link {
+    text-decoration: none;
+    color: #faf7f7;
+    font-size: 14px;
+}
 
 
 
