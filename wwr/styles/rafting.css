@@ -288,7 +288,7 @@ button:hover {
 .newsletter {
     display: flex;
     flex-direction: column;
-    align-items: top;
+    align-items: center;
     justify-content: left;    
 }
 
@@ -310,7 +310,7 @@ button:hover {
 main {
     background-image: url('../images/hero.jpeg');
     background-size: cover;
-    background-position: absolute;
+    background-position: cover;
   }
   
   
